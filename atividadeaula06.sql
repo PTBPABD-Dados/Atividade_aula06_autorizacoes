@@ -24,7 +24,7 @@ CREATE USER User_d WITH PASSWORD = 'PT23826x';
 CREATE USER User_e WITH PASSWORD = 'PT23828x';
 
 --2. Considere o esquema de banco de dados relacional university.
-O User_A poderá selecionar ou modificar qualquer relação, exceto CLASSROOM, e pode conceder qualquer um desses privilégios a outros usuários.
+--O User_A poderá selecionar ou modificar qualquer relação, exceto CLASSROOM, e pode conceder qualquer um desses privilégios a outros usuários.
 
 -- Concedendo permissao para que user_a selecione ou modifique os dados das tabelas do database university, exceto classroom.
 --Além disso, permito que user_a conceda permissões para outros users usando with grant option.
